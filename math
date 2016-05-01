@@ -1,0 +1,31 @@
+#!/usr/bin/env node 
+
+//get argument values
+var op = process.argv[2];
+	one = +process.argv[3];
+	two = +process.argv[4];
+
+if (op === "add") {
+	var answer = (one + two);
+	console.log("= " + answer);
+
+}
+else if (op === "subtract") {
+	var answer = (one - two);
+	console.log("= " + answer);
+}
+else if (op === "multiply") {
+	var answer = (one * two);
+	console.log("= " + answer);
+}
+else if (op === "divide") {
+	var answer = (one / two);
+	console.log("= " + answer);
+}
+
+
+
+
+
+
+
